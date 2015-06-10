@@ -1,0 +1,36 @@
+{
+  "name": "angular-weather-widget",
+  "version": "0.0.1",
+  "description": "A simple demo app testing a basic setup of angular with webpack",
+  "main": "app/index.js",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  },
+  "devDependencies": {
+    "angular": "^1.4.0",
+    "angular-ui-router": "^0.2.15",
+    "autoprefixer-core": "^5.2.0",
+    "babel-core": "^5.5.6",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.14.5",
+    "extract-text-webpack-plugin": "^0.8.1",
+    "file-loader": "^0.8.4",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "ng-annotate-loader": "0.0.3",
+    "node-sass": "^3.1.2",
+    "postcss-loader": "^0.4.4",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "scripts": {
+    "dev": "node node_modules/.bin/webpack-dev-server --content-base app/ --hot"
+  },
+  "author": "Jan Florian Dietrich <jfd@daenen4.de>",
+  "license": "MIT"
+}
