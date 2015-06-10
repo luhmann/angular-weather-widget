@@ -34,6 +34,10 @@ module.exports = {
                         'style-loader',
                         'css-loader?module&importLoaders=1&localIdentName=[name]--[local]-[hash:base64:5]!postcss-loader!sass?indentedSyntax'
                     )
+            },
+            {
+                test: /\.html$/,
+                loader: 'ngtemplate/!html'
             }
         ],
     },

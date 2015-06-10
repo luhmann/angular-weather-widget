@@ -1,4 +1,5 @@
 import styles from './weather.css';
+var template = require('./weather.html');
 
 (function() {
     'use strict';
@@ -10,7 +11,7 @@ import styles from './weather.css';
     function weather() {
         var directive = {
             restrict: 'E',
-            templateUrl: '/directives/weather/weather.html',
+            templateUrl: template,
             scope: {
                 city: '@'
             },

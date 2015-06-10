@@ -1,4 +1,5 @@
 import styles from './layout.css';
+var template = require('./layout.html');
 
 (function() {
     'use strict';
@@ -10,7 +11,7 @@ import styles from './layout.css';
     function layoutDirective() {
         var directive = {
             restrict: 'E',
-            templateUrl: '/directives/layout/layout.html',
+            templateUrl: template,
             scope: {
             },
             transclude: true,
